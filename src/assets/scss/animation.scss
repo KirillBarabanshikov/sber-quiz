@@ -1,0 +1,60 @@
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.3s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+
+.slide-enter-active,
+.slide-leave-active {
+  transition: all 0.5s ease;
+}
+
+.slide-enter-from,
+.slide-leave-to {
+  opacity: 0;
+  transform: translateX(30px);
+}
+
+.rotate-enter-active,
+.rotate-leave-active {
+  transition: all 0.5s ease;
+}
+
+.rotate-enter-from,
+.rotate-leave-to {
+  transform: rotate(90deg);
+}
+
+.phone-move,
+.phone-enter-active,
+.phone-leave-active {
+  transition: all 0.3s ease;
+}
+
+.phone-enter-from,
+.phone-leave-to {
+  opacity: 0;
+  transform: translateY(-100%);
+}
+.phone-leave-active {
+  position: absolute;
+}
+
+.keyboard-move,
+.keyboard-enter-active,
+.keyboard-leave-active {
+  transition: all 0.3s ease;
+}
+
+.keyboard-enter-from,
+.keyboard-leave-to {
+  opacity: 0;
+  transform: translateY(100%);
+}
+.keyboard-leave-active {
+  position: absolute;
+}

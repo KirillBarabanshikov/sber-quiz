@@ -1,0 +1,49 @@
+@import 'variables';
+
+.title {
+  width: 100%;
+  font-weight: 600;
+  font-size: 56px;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+}
+
+.link {
+  color: $red;
+  text-decoration: underline;
+  cursor: pointer;
+
+  &.yellow {
+    color: $yellow;
+  }
+
+  &.black {
+    color: $black;
+  }
+}
+
+.text {
+  width: 100%;
+  font-size: 28px;
+  font-weight: 600;
+  color: #fff;
+  position: absolute;
+}
+
+.text-light {
+  width: 100%;
+  font-size: 24px;
+  font-weight: 300;
+  color: #fff;
+  position: absolute;
+}
+
+.subtitle {
+  width: 100%;
+  font-size: 36px;
+  font-weight: 600;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+}
