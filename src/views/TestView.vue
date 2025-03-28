@@ -41,7 +41,7 @@ const nextQuest = () => {
     isAnswered.value.correct = false
   } else {
     router.push(
-      `/email?time=${useTimer(timer.value)}&answers=${correctAnswers.value}`
+      `/finish?time=${useTimer(timer.value)}&answers=${correctAnswers.value}`
     )
   }
 }
